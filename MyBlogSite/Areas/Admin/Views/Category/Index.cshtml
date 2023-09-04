@@ -1,0 +1,42 @@
+﻿@using MyBlogSite.Entities.Concrete
+@using X.PagedList
+@using X.PagedList.Mvc.Core
+@model IPagedList<Category>
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<h3>Kategoriler</h3>
+<table class="table table-borderless">
+    <tr>     
+        <th>Kategori Adı</th>
+        <th>Aktif</th>
+        <th>Pasif</th>       
+        <th>Düzenle</th>     
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>          
+            <td>@item.CategoryName</td>
+
+            <td><a href="#" class="btn btn-success">Aktif Yap</a></td>
+
+            <td><a href="/Admin/Category/CategoryDelete/@item.CategoryID" class="btn btn-danger"
+            id="btnDelete" onclick="return confirm('Silmek istediğinize emin misiniz?');">Pasif Yap</a></td>
+
+            <td><a href="#" class="btn btn-primary">Düzenle</a></td>
+        </tr>
+    }
+</table>
+<td><a href="/Admin/Category/CategoryAdd/" class="btn btn-info">Yeni Kategori</a></td>
+<br />
+<br />
+@Html.PagedListPager((IPagedList)Model,page => Url.Action("Index",new{page}))
+
+@*sayfalama yapısı*@
+
+

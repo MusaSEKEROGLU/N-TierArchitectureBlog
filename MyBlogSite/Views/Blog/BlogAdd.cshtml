@@ -1,0 +1,36 @@
+﻿@model MyBlogSite.Entities.Concrete.Blog
+@{
+    ViewData["Title"] = "BlogAdd";
+    Layout = "~/Views/Shared/WriterLayot.cshtml";
+}
+
+<h3 class="tittle">Yazar Blog Ekleme</h3>
+<br />
+<br />
+@using (Html.BeginForm("BlogAdd", "Blog", FormMethod.Post))
+{
+
+    @Html.Label("Blog Başlığı")
+    @Html.TextBoxFor(b => b.BlogTitle,new{@class="form-control"})
+    @Html.ValidationMessageFor(b => b.BlogTitle)
+    <br />   
+    @Html.Label("Blog Görseli")
+    @Html.TextBoxFor(b => b.BlogImage,new{@class="form-control"})
+    @Html.ValidationMessageFor(b => b.BlogImage)
+    <br />
+    @Html.Label("Blog Küçük Görsel")
+    @Html.TextBoxFor(b => b.BlogThumbnailImage,new{@class="form-control"})
+    <br />
+    @Html.Label("Blog Kategorisi")
+    @Html.DropDownListFor(b => b.CategoryID,(List<SelectListItem>)ViewBag.category,new{@class="form-control"})
+    <br />
+  @*@Html.Label("Blog YazarID")
+    @Html.TextBoxFor(b => b.WriterID,new{@class="form-control"})
+    <br />*@
+    @Html.Label("Blog İçeriği")
+    @Html.TextAreaFor(b => b.BlogContent,15,3,new{@class="form-control"})
+    @Html.ValidationMessageFor(b => b.BlogContent)
+    <br />
+    <br />
+    <button class="btn btn-primary submit mb-4">Ekle</button>
+}

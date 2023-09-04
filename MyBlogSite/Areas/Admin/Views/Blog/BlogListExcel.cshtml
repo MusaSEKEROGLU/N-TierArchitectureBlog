@@ -1,0 +1,24 @@
+﻿@*verileri excel'e çekmek*@
+
+
+@{
+    ViewData["Title"] = "BlogListExcel";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+<h4>Blog listesini Excel formatta al</h4>
+<br />
+
+@*script kullanmadan yapılan*@
+
+@*<a class="btn btn-primary" href="/Admin/Blog/ExportStaticExcelBlogList/">Excel Listesini İndir</a>*@
+
+
+@*script ile yapılan*@
+
+<button class="btn btn-primary" onclick="DownloadExcelBlogList();">Excel Listesini İndir</button>
+<script>
+    function DownloadExcelBlogList(){
+        window.open("/Admin/Blog/ExportStaticExcelBlogList/");
+    }
+</script>

@@ -1,0 +1,26 @@
+﻿@model MyBlogSite.Entities.Concrete.Category
+@{
+    ViewData["Title"] = "CategoryAdd";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<h3 class="tittle">Kategori Ekleme</h3>
+<br />
+<br />
+@using (Html.BeginForm("CategoryAdd", "Category", FormMethod.Post))
+{
+
+    @Html.Label("Kategori Adı:")
+    @Html.TextBoxFor(b => b.CategoryName,new{@class="form-control"})
+    @Html.ValidationMessageFor(b => b.CategoryName)
+    <br />
+    <br />
+    <br />
+    @Html.Label("Kategori Açıklaması:")
+    @Html.TextAreaFor(b => b.CategoryDescription,15,3,new{@class="form-control"})
+    @Html.ValidationMessageFor(b => b.CategoryDescription)
+    <br />       
+    <br />
+    <button class="btn btn-info submit mb-4">Ekle</button>
+}
+

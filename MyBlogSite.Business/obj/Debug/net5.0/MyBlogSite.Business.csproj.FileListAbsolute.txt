@@ -1,0 +1,17 @@
+C:\Users\drnma\Desktop\N-TierArchitectureBlog\MyBlogSite.Business\bin\Debug\net5.0\MyBlogSite.Business.deps.json
+C:\Users\drnma\Desktop\N-TierArchitectureBlog\MyBlogSite.Business\bin\Debug\net5.0\MyBlogSite.Business.dll
+C:\Users\drnma\Desktop\N-TierArchitectureBlog\MyBlogSite.Business\bin\Debug\net5.0\MyBlogSite.Business.pdb
+C:\Users\drnma\Desktop\N-TierArchitectureBlog\MyBlogSite.Business\bin\Debug\net5.0\MyBlogSite.DataAccess.dll
+C:\Users\drnma\Desktop\N-TierArchitectureBlog\MyBlogSite.Business\bin\Debug\net5.0\MyBlogSite.Entities.dll
+C:\Users\drnma\Desktop\N-TierArchitectureBlog\MyBlogSite.Business\bin\Debug\net5.0\MyBlogSite.DataAccess.pdb
+C:\Users\drnma\Desktop\N-TierArchitectureBlog\MyBlogSite.Business\bin\Debug\net5.0\MyBlogSite.Entities.pdb
+C:\Users\drnma\Desktop\N-TierArchitectureBlog\MyBlogSite.Business\obj\Debug\net5.0\MyBlogSite.Business.csproj.AssemblyReference.cache
+C:\Users\drnma\Desktop\N-TierArchitectureBlog\MyBlogSite.Business\obj\Debug\net5.0\MyBlogSite.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\drnma\Desktop\N-TierArchitectureBlog\MyBlogSite.Business\obj\Debug\net5.0\MyBlogSite.Business.AssemblyInfoInputs.cache
+C:\Users\drnma\Desktop\N-TierArchitectureBlog\MyBlogSite.Business\obj\Debug\net5.0\MyBlogSite.Business.AssemblyInfo.cs
+C:\Users\drnma\Desktop\N-TierArchitectureBlog\MyBlogSite.Business\obj\Debug\net5.0\MyBlogSite.Business.csproj.CoreCompileInputs.cache
+C:\Users\drnma\Desktop\N-TierArchitectureBlog\MyBlogSite.Business\obj\Debug\net5.0\MyBlogSite.Business.csproj.CopyComplete
+C:\Users\drnma\Desktop\N-TierArchitectureBlog\MyBlogSite.Business\obj\Debug\net5.0\MyBlogSite.Business.dll
+C:\Users\drnma\Desktop\N-TierArchitectureBlog\MyBlogSite.Business\obj\Debug\net5.0\refint\MyBlogSite.Business.dll
+C:\Users\drnma\Desktop\N-TierArchitectureBlog\MyBlogSite.Business\obj\Debug\net5.0\MyBlogSite.Business.pdb
+C:\Users\drnma\Desktop\N-TierArchitectureBlog\MyBlogSite.Business\obj\Debug\net5.0\ref\MyBlogSite.Business.dll

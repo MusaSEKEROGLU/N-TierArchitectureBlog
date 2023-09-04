@@ -1,0 +1,40 @@
+﻿@model UserUpdateViewModel
+@{
+    ViewData["Title"] = "WriterEditProfile";
+    Layout = "~/Views/Shared/WriterLayot.cshtml";
+}
+
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Profil Düzenleme İşlemleri</h4>   
+                <br/>
+               
+                <form class="forms-sample" method="post">
+                    <div class="form-group">
+                        <label for="exampleInputName1">Ad-Soyad</label>
+                    <input type="text" asp-for="@Model.namesurname" class="form-control"/>
+                    </div>                    
+                    <div class="form-group">
+                        <label for="exampleInputEmail3">Email Adres</label>
+                        <input type="email" asp-for="@Model.mail" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail3">Kullanıcı Adı</label>
+                        <input type="text" asp-for="@Model.username" class="form-control" />
+                    </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail3">Şifre</label>
+                    <input type="password" asp-for="@Model.password" class="form-control" />
+                </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail3">Kullanıcı Resmi</label>
+                        <input type="text" asp-for="@Model.imageurl" class="form-control" />
+                    </div>
+
+                <button asp-action="Index" asp-controller="Login" type="submit" class="btn btn-gradient-primary mr-2">Güncelle</button>
+                <button asp-action="Index" asp-controller="Dashboard" class="btn btn-danger">İptal</button>
+                </form>
+            </div>
+        </div>
+    </div>

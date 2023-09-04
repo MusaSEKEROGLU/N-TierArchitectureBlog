@@ -1,0 +1,24 @@
+﻿@*verileri db'den excel formatta çekmek*@
+@{
+    ViewData["Title"] = "BlogListExcelDb";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+<h6>Blog Listesini Excel Formatta Al</h6>
+<br />
+
+@*script kullanmadan yapılan*@
+
+@*<a class="btn btn-primary" href="/Admin/Blog/DownloadExcelBlogListDb/">Listeyi İndir</a>*@
+
+
+@*script ile yapılan*@
+
+<button class="btn btn-primary" onclick="DownloadExcelBlogListDb();">Listeyi İndir</button>
+<script>
+    function DownloadExcelBlogListDb(){
+        window.open("/Admin/Blog/ExportDynamicExcelBlogList/");
+    }
+</script>
+

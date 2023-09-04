@@ -1,0 +1,36 @@
+﻿@using MyBlogSite.Entities.Concrete
+@model List<Blog>
+@{
+    ViewData["Title"] = "BlogListByWriter";
+    Layout = "~/Views/Shared/WriterLayot.cshtml";
+}
+
+<h3 style="color:blue">Yazarın Blokları</h3>
+<table class="table table-bordered">
+    <tr style ="color:blue">
+        <th>#</th>
+        <th>Blog Başlık</th>
+        <th>Blog Tarihi</th>
+        <th>Kategori</th>
+        <th>Durumu</th>
+        <th>Sil</th>
+        <th>Düzenle</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <th>@item.BlogID</th>
+            <td>@item.BlogTitle</td>
+            <td>@(((DateTime)item.BlogCreateDate).ToString("dd/MMM/yyyy"))</td>
+            <td>@item.Category.CategoryName</td>        
+            <td>@item.BlogStatus</td>
+            <td><a href="/Blog/BlogDelete/@item.BlogID" class="btn btn-outline-danger">Sil</a></td>
+            <td><a href="/Blog/EditBlog/@item.BlogID" class="btn btn-outline-warning">Düzenle</a></td>
+        </tr>
+    }
+</table>
+<br/>
+<a href="/Blog/BlogAdd/" class="btn btn-outline-success">Yeni Blog Ekle</a>
+
+
+@*yazar ıd ye göre hem blogları getirmek hemde kategorileri isimleriyle birlikte getirmek*@

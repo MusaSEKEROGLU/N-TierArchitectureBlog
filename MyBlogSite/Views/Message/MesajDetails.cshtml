@@ -1,0 +1,24 @@
+﻿@model MyBlogSite.Entities.Concrete.Message2
+
+@{
+    ViewData["Title"] = "MesajDetails";
+    Layout = "~/Views/Shared/WriterLayot.cshtml";
+}
+
+<h3> Mesaj Detayları </h3>
+<br />
+<br />
+@using (Html.BeginForm("MesajDetails", "Message", FormMethod.Post))
+{
+    @Html.Label("Mesaj ID")
+    @Html.TextBoxFor(b => b.MessageID,new{@class="form-control"})
+    <br />
+    @Html.Label("Mesaj Konusu")
+    @Html.TextBoxFor(b => b.Subject,new{@class="form-control"})
+    <br />
+    @Html.Label("Mesaj İçeriği")
+    @Html.TextAreaFor(b => b.MessageDetails,20,3,new{@class="form-control"})
+    <br />
+    <a href="/Message/InBox/" class="btn btn-primary submit mb-4">Mesajlara Dön</a>
+}
+

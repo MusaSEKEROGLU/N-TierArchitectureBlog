@@ -1,0 +1,33 @@
+﻿@model MyBlogSite.Entities.Concrete.Blog
+@{
+    ViewData["Title"] = "EditBlog";
+    Layout = "~/Views/Shared/WriterLayot.cshtml";
+}
+
+<h3 style="color:blue">Blog Güncelleme</h3>
+<br />
+<br />
+@using(Html.BeginForm("EditBlog","Blog",FormMethod.Post))
+{
+    @Html.Label("Blog ID")
+    @Html.TextBoxFor(b => b.BlogID,new{@class="form-control"})
+    <br />
+    @Html.Label("Blog Başlığı")
+    @Html.TextBoxFor(b => b.BlogTitle,new{@class="form-control"})
+    <br />
+    @Html.Label("Blog Thumbnail Url")
+    @Html.TextBoxFor(b => b.BlogThumbnailImage,new{@class="form-control"})
+    <br />
+    @Html.Label("Blog Görseli")
+    @Html.TextBoxFor(b => b.BlogImage,new{@class="form-control"})
+    <br />
+    @Html.Label("Blog Kategorisi")
+    @Html.DropDownListFor(b => b.CategoryID,(List<SelectListItem>)ViewBag.category,new{@class="form-control"})
+    <br />
+    @Html.Label("Blog İçeriği")
+    @Html.TextAreaFor(b => b.BlogContent,15,3,new{@class="form-control"})
+    <br />  
+  @*@Html.Label("Blog Yazar ID")
+    @Html.TextBoxFor(b => b.WriterID,new{@class="form-control"})*@
+    <button class="btn btn-primary submit mb-4">Güncelle</button>
+}

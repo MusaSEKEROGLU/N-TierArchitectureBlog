@@ -1,0 +1,46 @@
+﻿@using MyBlogSite.Entities.Concrete
+@model List<Blog>
+
+<div class="row">
+    <div class="col-12 grid-margin">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Son 10 Blog</h4>
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th> Blog Görsel </th>
+                                <th> Blog Başlığı </th>
+                                <th> Blog  Kategorisi </th>
+                                <th> Oluşturma Tarihi </th>
+                                <th> Blog Detayı </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        <img src="@item.BlogImage" class="mr-2" alt="image">
+                                    </td>
+                                    <td>
+                                        <label class="badge badge-gradient-success">@item.BlogTitle</label>
+                                    </td>
+                                    <td>
+                                        <label class="badge badge-gradient-success">@item.Category.CategoryName</label>
+                                    </td>
+                                    <td> @(((DateTime)item.BlogCreateDate).ToString("dd/MMM/yyyy"))</td>
+                                    <td>
+                                        <a class="btn btn-primary" href="/Blog/BlogReadAll/@item.BlogID">Blog Detayı</a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+ @*dsshboard son eklenen bloglar*@

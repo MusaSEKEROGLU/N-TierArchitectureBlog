@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "MyBlogSite.Core/1.0.0": {
+        "runtime": {
+          "MyBlogSite.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MyBlogSite.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

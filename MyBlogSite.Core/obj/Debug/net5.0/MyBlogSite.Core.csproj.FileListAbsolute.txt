@@ -1,0 +1,12 @@
+C:\Users\drnma\Desktop\N-TierArchitectureBlog\MyBlogSite.Core\bin\Debug\net5.0\MyBlogSite.Core.deps.json
+C:\Users\drnma\Desktop\N-TierArchitectureBlog\MyBlogSite.Core\bin\Debug\net5.0\MyBlogSite.Core.dll
+C:\Users\drnma\Desktop\N-TierArchitectureBlog\MyBlogSite.Core\bin\Debug\net5.0\MyBlogSite.Core.pdb
+C:\Users\drnma\Desktop\N-TierArchitectureBlog\MyBlogSite.Core\obj\Debug\net5.0\MyBlogSite.Core.csproj.AssemblyReference.cache
+C:\Users\drnma\Desktop\N-TierArchitectureBlog\MyBlogSite.Core\obj\Debug\net5.0\MyBlogSite.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\drnma\Desktop\N-TierArchitectureBlog\MyBlogSite.Core\obj\Debug\net5.0\MyBlogSite.Core.AssemblyInfoInputs.cache
+C:\Users\drnma\Desktop\N-TierArchitectureBlog\MyBlogSite.Core\obj\Debug\net5.0\MyBlogSite.Core.AssemblyInfo.cs
+C:\Users\drnma\Desktop\N-TierArchitectureBlog\MyBlogSite.Core\obj\Debug\net5.0\MyBlogSite.Core.csproj.CoreCompileInputs.cache
+C:\Users\drnma\Desktop\N-TierArchitectureBlog\MyBlogSite.Core\obj\Debug\net5.0\MyBlogSite.Core.dll
+C:\Users\drnma\Desktop\N-TierArchitectureBlog\MyBlogSite.Core\obj\Debug\net5.0\refint\MyBlogSite.Core.dll
+C:\Users\drnma\Desktop\N-TierArchitectureBlog\MyBlogSite.Core\obj\Debug\net5.0\MyBlogSite.Core.pdb
+C:\Users\drnma\Desktop\N-TierArchitectureBlog\MyBlogSite.Core\obj\Debug\net5.0\ref\MyBlogSite.Core.dll

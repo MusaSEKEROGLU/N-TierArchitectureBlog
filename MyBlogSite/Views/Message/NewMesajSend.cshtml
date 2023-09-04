@@ -1,0 +1,26 @@
+﻿@model MyBlogSite.Entities.Concrete.Message2
+@{
+    ViewData["Title"] = "NewMesajSend";
+    Layout = "~/Views/Shared/WriterLayot.cshtml";
+}
+
+<h3 class="tittle">Yeni Mesaj</h3>
+<br />
+<br />
+@using (Html.BeginForm("NewMesajSend", "Message", FormMethod.Post))
+{
+    @Html.Label("Alıcı")
+    @*@Html.TextBoxFor(b => b.Subject,new{@class="form-control"})*@
+    <input type="text" class="form-control"/>
+    <br />
+    @Html.Label("Konu")
+    @Html.TextBoxFor(b => b.Subject,new{@class="form-control"})  
+    <br />
+
+    @Html.Label("Mesaj İçeriği")
+    @Html.TextAreaFor(b => b.MessageDetails,new{@class="form-control"})
+    <br />      
+    <br />
+    <button class="btn btn-primary submit mb-4">Mesajı Gönder</button>
+}
+

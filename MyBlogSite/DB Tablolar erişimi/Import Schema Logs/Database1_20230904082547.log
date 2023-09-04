@@ -1,0 +1,88 @@
+4.09.2023 23:25:47	This log contains information about the import schema operation into project 'Database1' on computer 'DESKTOP-THSSRI7' by user 'drnma'.
+4.09.2023 23:25:48	Import of database schema has started.
+4.09.2023 23:25:54	Gathering database credentials
+4.09.2023 23:25:54	Gathering database options
+4.09.2023 23:25:54	Gathering generic database scoped configuration option
+4.09.2023 23:25:54	Gathering users
+4.09.2023 23:25:54	Gathering roles
+4.09.2023 23:25:54	Gathering application roles
+4.09.2023 23:25:54	Gathering role memberships
+4.09.2023 23:25:54	Gathering filegroups
+4.09.2023 23:25:54	Gathering full-text catalogs
+4.09.2023 23:25:54	Gathering assemblies
+4.09.2023 23:25:54	Gathering certificates
+4.09.2023 23:25:54	Gathering asymmetric keys
+4.09.2023 23:25:54	Gathering symmetric keys
+4.09.2023 23:25:54	Gathering encrypted symmetric keys
+4.09.2023 23:25:54	Gathering schemas
+4.09.2023 23:25:54	Gathering XML schema collections
+4.09.2023 23:25:54	Gathering user-defined data types
+4.09.2023 23:25:54	Gathering user-defined types
+4.09.2023 23:25:54	Gathering table types
+4.09.2023 23:25:54	Gathering unique keys for table types
+4.09.2023 23:25:54	Gathering primary keys for table types
+4.09.2023 23:25:54	Gathering indexes for table types
+4.09.2023 23:25:54	Gathering check constraints for table types
+4.09.2023 23:25:54	Gathering default constraints for table types
+4.09.2023 23:25:54	Gathering partition functions
+4.09.2023 23:25:54	Gathering partition schemes
+4.09.2023 23:25:54	Gathering functions
+4.09.2023 23:25:54	Gathering encrypted functions
+4.09.2023 23:25:54	Gathering aggregates
+4.09.2023 23:25:54	Gathering procedures
+4.09.2023 23:25:54	Gathering encrypted procedures
+4.09.2023 23:25:54	Gathering tables
+4.09.2023 23:25:54	Gathering primary keys
+4.09.2023 23:25:54	Gathering unique constraints
+4.09.2023 23:25:54	Gathering foreign keys
+4.09.2023 23:25:54	Gathering default constraints
+4.09.2023 23:25:54	Gathering check constraints
+4.09.2023 23:25:54	Gathering views
+4.09.2023 23:25:54	Gathering encrypted views
+4.09.2023 23:25:54	Gathering indexes
+4.09.2023 23:25:54	Gathering statistics
+4.09.2023 23:25:54	Gathering full-text index stoplists
+4.09.2023 23:25:54	Gathering search property lists
+4.09.2023 23:25:54	Gathering search properties
+4.09.2023 23:25:54	Gathering full-text indexes
+4.09.2023 23:25:54	Gathering column store indexes
+4.09.2023 23:25:54	Gathering spatial indexes
+4.09.2023 23:25:54	Gathering XML indexes
+4.09.2023 23:25:54	Gathering Selective XML indexes
+4.09.2023 23:25:54	Gathering encrypted triggers
+4.09.2023 23:25:54	Gathering triggers
+4.09.2023 23:25:54	Gathering encrypted and clr ddl triggers
+4.09.2023 23:25:54	Gathering ddl triggers
+4.09.2023 23:25:54	Creating edge constraints
+4.09.2023 23:25:54	Gathering synonyms
+4.09.2023 23:25:54	Gathering defaults
+4.09.2023 23:25:54	Gathering data constraint uddt bindings
+4.09.2023 23:25:54	Gathering rules
+4.09.2023 23:25:54	Gathering data constraint uddt bindings
+4.09.2023 23:25:54	Gathering message types
+4.09.2023 23:25:54	Gathering queues
+4.09.2023 23:25:54	Gathering contracts
+4.09.2023 23:25:54	Gathering services
+4.09.2023 23:25:54	Gathering event notifications
+4.09.2023 23:25:54	Gathering remote service bindings
+4.09.2023 23:25:54	Gathering broker priorities
+4.09.2023 23:25:54	Gathering signatures
+4.09.2023 23:25:54	Gathering compression options
+4.09.2023 23:25:54	Gathering sequence types
+4.09.2023 23:25:54	Gathering security policies
+4.09.2023 23:25:54	Gather column encryption keys
+4.09.2023 23:25:54	Gathering column master keys
+4.09.2023 23:25:54	Gathering external data sources
+4.09.2023 23:25:54	Gathering external file formats
+4.09.2023 23:25:54	Gathering external tables
+4.09.2023 23:25:54	Gathering XML index compression options
+4.09.2023 23:25:54	Gathering extended properties
+4.09.2023 23:25:54	Gathering assemblies
+4.09.2023 23:25:54	Gathering credentials
+4.09.2023 23:25:54	Gathering logins
+4.09.2023 23:25:54	Gathering server audits
+4.09.2023 23:25:56	Scanning project for duplicate elements
+4.09.2023 23:25:56	Finished duplicate element processing
+4.09.2023 23:25:57	Finished importing database.
+4.09.2023 23:25:57	A summary of the import was saved to the following location: C:\Users\drnma\source\repos\Database1\Import Schema Logs\Database1_20230904082547.log
+4.09.2023 23:25:57	Click Finish to continue...
